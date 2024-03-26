@@ -8,8 +8,7 @@ import { MdEngineering } from "react-icons/md";
 import AOS  from 'aos'
 import 'aos/dist/aos.css'
 
-export default function 
-() {
+export default function Count() {
   return (
     <div className='flex md:flex-row flex-wrap md:justify-around items-center gap-2 justify-center bg-main-1 h-[300px] mt-10' >
         <div data-aos="flip-left"
