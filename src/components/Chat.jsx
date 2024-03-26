@@ -8,7 +8,7 @@ export default function Chat() {
   return (
   
     <div className='flex'>
-        <a href="https://web.whatsapp.com/send?phone=+254791497403&text=Hello%20Solar-Spark%20I'm%20Interested%20In%20Your%20Products" target="_blank">
+        <a href="https://web.whatsapp.com/send?phone=+254705580246&text=Hello%20Solar-Spark%20I'm%20Interested%20In%20Your%20Products" target="_blank">
             <IoLogoWhatsapp className=' text-6xl text-main-6  bg-transparent '/>
         </a>
     </div>
