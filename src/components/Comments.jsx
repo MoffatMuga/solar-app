@@ -71,7 +71,7 @@ useEffect(() => {
             
             {comments.slice(currentIndex, currentIndex + 2).map((comment, index) => (
                 <div className=' relative md:w-[400px] md:h-[270px] rounded-tl-2xl border-2 rounded-br-2xl flex flex-col p-2 ' key={index} data-aos='fade-right'>
-                    <div className='flex justify-between'><Image src={comment.image} height={30} width={30} className='object-cover rounded-full  border-main-1 h-20 w-20' /><span className='font-bold text-xl'>{comment.name}</span></div>
+                    <div className='flex justify-between'><Image src={comment.image} alt='image' height={30} width={30} className='object-cover rounded-full  border-main-1 h-20 w-20' /><span className='font-bold text-xl'>{comment.name}</span></div>
                     <div><h2 className='text-center font-semibold'>{comment.title}</h2></div>
                     <div>
                         <p><span><RiDoubleQuotesL /></span>{comment.review}</p>

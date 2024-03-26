@@ -59,7 +59,7 @@ useEffect(() => {
                   </div>
                   <div className='relative items-center'>
                     
-                    <Image src='/solar-1.jpg'width={400} height={400} className=' w-screen h-[500px] object-cover bg-black bg-opacity-80' data-aos='zoom-in-left' data-aos-delay='100'/>
+                    <Image src='/solar-1.jpg'width={400} height={400} alt='image' className=' w-screen h-[500px] object-cover bg-black bg-opacity-80' data-aos='zoom-in-left' data-aos-delay='100'/>
                     
                     
                     <div className='absolute inset-0 bg-black opacity-50 w-screenh-[500px]'></div>

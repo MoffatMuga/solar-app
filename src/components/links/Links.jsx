@@ -32,27 +32,27 @@ const links = [
 export default function Links() {
 
     const [navOpen, setNavOpen] = useState(false);
-    const [dimensions, setDimensions] = useState({
-        height: window.innerHeight,
-        width: window.innerWidth,
-    });
+    // const [dimensions, setDimensions] = useState({
+    //     height: window.innerHeight,
+    //     width: window.innerWidth,
+    // });
 
-    useEffect(() =>{
-        function handleResize () {
-            setDimensions({
-                height: window.innerHeight,
-                width: window.innerWidth,
-            })
-            if( dimensions.width > 760 && navOpen) {
-                setNavOpen(false)
-            }
-        }
-        window.addEventListener('resize', handleResize)
+    // useEffect(() =>{
+    //     function handleResize () {
+    //         setDimensions({
+    //             height: window.innerHeight,
+    //             width: window.innerWidth,
+    //         })
+    //         if( dimensions.width > 760 && navOpen) {
+    //             setNavOpen(false)
+    //         }
+    //     }
+    //     window.addEventListener('resize', handleResize)
 
-        return (_) => {
-            window.removeEventListener('resize', handleResize)
-        };
-    }) 
+    //     return (_) => {
+    //         window.removeEventListener('resize', handleResize)
+    //     };
+    // }) 
 
     const menuMobileHandler = () => {
         setNavOpen(!navOpen);

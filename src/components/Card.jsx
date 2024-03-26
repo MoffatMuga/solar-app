@@ -36,7 +36,7 @@ export default function Card() {
             <div key={index} className='rounded shadow-xl gap-3 px-4 h-[450px] md:w-[300px]' 
             data-aos='fade-up'
             >
-                <Image src={card.image} height={400} width={200} className='h-[250px] w-full object-cover'/>
+                <Image src={card.image} height={400} width={200}  alt='image' className='h-[250px] w-full object-cover'/>
                 <h2 className='flex justify-center bg-main-1  text-white bg-opacity-70'>{card.title}</h2>
                 <p className='text-black/70'>{card.description}</p>
             </div>
